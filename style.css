@@ -1,10 +1,15 @@
 /* RESET BASE */
 
+*{
+box-sizing:border-box;
+}
+
 body{
 margin:0;
 font-family:Arial, sans-serif;
 background:#FFFFFF;
 color:#000000;
+line-height:1.5;
 }
 
 
@@ -36,7 +41,7 @@ gap:24px;               /* 3x8 */
 nav a{
 text-decoration:none;
 color:#0000FF;
-font-weight:normal;     /* rimosso grassetto */
+font-weight:normal;
 }
 
 
@@ -45,6 +50,12 @@ font-weight:normal;     /* rimosso grassetto */
 section{
 padding:48px 24px;     /* 6x8 e 3x8 */
 border-bottom:1px solid #000;
+}
+
+h1{
+margin-top:0;
+margin-bottom:24px;     /* 3x8 */
+font-size:24px;
 }
 
 
@@ -155,6 +166,7 @@ font-size:13px;          /* dimensione ridotta */
 
 line-height:1.4;
 
+margin-top:4px;
 }
 
 
