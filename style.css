@@ -1,6 +1,8 @@
+/* RESET BASE */
+
 body{
 margin:0;
-font-family: Arial, Helvetica, sans-serif;
+font-family:Arial, sans-serif;
 background:#FFFFFF;
 color:#000000;
 }
@@ -12,51 +14,67 @@ header{
 display:flex;
 justify-content:space-between;
 align-items:center;
-border-bottom:2px solid black;
-padding:20px;
+
+padding:24px;            /* 3x8 */
+
+border-bottom:1px solid #000;
 }
 
 .logo{
-font-weight:bold;
 font-size:20px;
+letter-spacing:1px;
+}
+
+
+/* NAVIGAZIONE */
+
+nav{
+display:flex;
+gap:24px;               /* 3x8 */
 }
 
 nav a{
-margin-left:20px;
 text-decoration:none;
 color:#0000FF;
-font-weight:bold;
-}
-
-
-/* HERO */
-
-.hero{
-padding:60px;
-border-bottom:1px solid black;
-}
-
-.hero h1{
-margin-bottom:20px;
-}
-
-
-/* BOTTONI */
-
-.cta{
-background:#FF0000;
-color:white;
-border:2px solid black;
-padding:10px 20px;
-cursor:pointer;
+font-weight:normal;     /* rimosso grassetto */
 }
 
 
 /* SEZIONI */
 
 section{
-padding:40px;
-border-bottom:1px solid black;
+padding:48px 24px;     /* 6x8 e 3x8 */
+border-bottom:1px solid #000;
+}
+
+
+/* HERO */
+
+.hero{
+max-width:800px;
+margin-bottom:32px;    /* 4x8 */
+}
+
+.hero h1{
+margin-bottom:16px;    /* 2x8 */
+}
+
+.hero p{
+margin-bottom:24px;    /* 3x8 */
+}
+
+
+/* CTA */
+
+.cta{
+background:#FF0000;
+color:white;
+
+border:2px solid black;    /* CTA unica eccezione */
+
+padding:12px 24px;         /* multipli di 8 */
+
+cursor:pointer;
 }
 
 
@@ -64,32 +82,88 @@ border-bottom:1px solid black;
 
 .grid{
 display:grid;
+
 grid-template-columns:repeat(3,1fr);
-gap:30px;
-margin-top:20px;
+
+gap:24px;                   /* 3x8 */
+
+margin-top:24px;
 }
 
 
 /* BOX CATEGORIE */
 
 .box{
-border:1px solid black;
-padding:40px;
+border:1px solid #000;
+
+padding:32px;              /* 4x8 */
+
 text-align:center;
-font-weight:bold;
 }
 
 
-/* PRODOTTI */
+/* PRODOTTO */
 
 .prodotto{
-border:1px solid black;
-padding:20px;
+border:1px solid #000;
+
+padding:24px;            /* 3x8 */
+
+display:flex;
+flex-direction:column;
+
+gap:16px;                /* 2x8 */
 }
+
+
+/* IMMAGINE PRODOTTO */
 
 .prodotto img{
 width:100%;
-border:1px solid black;
+
+border:1px solid #000;
+
+margin:0;
+}
+
+
+/* NOME PRODOTTO */
+
+.nome-prodotto{
+
+font-size:20px;
+
+margin:0;
+
+line-height:1.3;
+
+font-weight:normal;
+}
+
+
+/* CONTENITORE DATI TECNICI */
+
+.dati-tecnici{
+
+display:flex;
+
+flex-direction:column;
+
+gap:4px;
+
+font-size:13px;          /* dimensione ridotta */
+
+line-height:1.4;
+
+}
+
+
+/* SINGOLA RIGA DATI */
+
+.dati-tecnici p{
+
+margin:0;
+
 }
 
 
@@ -97,19 +171,25 @@ border:1px solid black;
 
 .highlight{
 background:#FFFF00;
+
+padding:4px 8px;
+
 display:inline-block;
-padding:5px;
+
+margin-bottom:8px;
 }
 
 
 /* FOOTER */
 
 footer{
-padding:20px;
+padding:24px;
 }
 
 .certificazioni{
-border:1px solid black;
-padding:10px;
-margin-bottom:10px;
+border:1px solid #000;
+
+padding:16px;
+
+margin-bottom:16px;
 }
