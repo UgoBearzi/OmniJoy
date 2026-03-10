@@ -5,9 +5,6 @@ background:#FFFFFF;
 color:#000000;
 }
 
-
-/* HEADER */
-
 header{
 display:flex;
 justify-content:space-between;
@@ -29,8 +26,6 @@ font-weight:bold;
 }
 
 
-/* HERO */
-
 .hero{
 padding:60px;
 border-bottom:1px solid black;
@@ -41,8 +36,6 @@ margin-bottom:20px;
 }
 
 
-/* BOTTONI */
-
 .cta{
 background:#FF0000;
 color:white;
@@ -52,15 +45,11 @@ cursor:pointer;
 }
 
 
-/* SEZIONI */
-
 section{
 padding:40px;
 border-bottom:1px solid black;
 }
 
-
-/* GRID */
 
 .grid{
 display:grid;
@@ -70,7 +59,6 @@ margin-top:20px;
 }
 
 
-/* BOX CATEGORIE */
 
 .box{
 border:1px solid black;
@@ -79,8 +67,6 @@ text-align:center;
 font-weight:bold;
 }
 
-
-/* PRODOTTI */
 
 .prodotto{
 border:1px solid black;
@@ -93,8 +79,6 @@ border:1px solid black;
 }
 
 
-/* EVIDENZIAZIONE */
-
 .highlight{
 background:#FFFF00;
 display:inline-block;
@@ -102,7 +86,6 @@ padding:5px;
 }
 
 
-/* FOOTER */
 
 footer{
 padding:20px;
