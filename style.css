@@ -1,5 +1,3 @@
-/* RESET BASE */
-
 *{
 box-sizing:border-box;
 }
@@ -12,15 +10,12 @@ color:#000000;
 line-height:1.5;
 }
 
-
-/* HEADER */
-
 header{
 display:flex;
 justify-content:space-between;
 align-items:center;
 
-padding:24px;            /* 3x8 */
+padding:24px;
 
 border-bottom:1px solid #000;
 }
@@ -30,12 +25,9 @@ font-size:20px;
 letter-spacing:1px;
 }
 
-
-/* NAVIGAZIONE */
-
 nav{
 display:flex;
-gap:24px;               /* 3x8 */
+gap:24px;
 }
 
 nav a{
@@ -44,90 +36,69 @@ color:#0000FF;
 font-weight:normal;
 }
 
-
-/* SEZIONI */
-
 section{
-padding:48px 24px;     /* 6x8 e 3x8 */
+padding:48px 24px;
 border-bottom:1px solid #000;
 }
 
 h1{
 margin-top:0;
-margin-bottom:24px;     /* 3x8 */
+margin-bottom:24px;
 font-size:24px;
 }
 
-
-/* HERO */
-
 .hero{
 max-width:800px;
-margin-bottom:32px;    /* 4x8 */
+margin-bottom:32px;
 }
 
 .hero h1{
-margin-bottom:16px;    /* 2x8 */
+margin-bottom:16px;
 }
 
 .hero p{
-margin-bottom:24px;    /* 3x8 */
+margin-bottom:24px;
 }
-
-
-/* CTA */
 
 .cta{
 background:#FF0000;
 color:white;
 
-border:2px solid black;    /* CTA unica eccezione */
+border:2px solid black;
 
-padding:12px 24px;         /* multipli di 8 */
+padding:12px 24px;
 
 cursor:pointer;
 }
-
-
-/* GRID */
 
 .grid{
 display:grid;
 
 grid-template-columns:repeat(3,1fr);
 
-gap:24px;                   /* 3x8 */
+gap:24px;
 
 margin-top:24px;
 }
 
-
-/* BOX CATEGORIE */
-
 .box{
 border:1px solid #000;
 
-padding:32px;              /* 4x8 */
+padding:32px;
 
 text-align:center;
 }
 
-
-/* PRODOTTO */
-
 .prodotto{
 border:1px solid #000;
 
-padding:24px;            /* 3x8 */
+padding:24px;
 
 display:flex;
 flex-direction:column;
 
-gap:16px;                /* 2x8 */
+gap:16px;
 }
-
-
-/* IMMAGINE PRODOTTO */
 
 .prodotto img{
 width:100%;
@@ -136,9 +107,6 @@ border:1px solid #000;
 
 margin:0;
 }
-
-
-/* NOME PRODOTTO */
 
 .nome-prodotto{
 
@@ -151,9 +119,6 @@ line-height:1.3;
 font-weight:normal;
 }
 
-
-/* CONTENITORE DATI TECNICI */
-
 .dati-tecnici{
 
 display:flex;
@@ -162,24 +127,18 @@ flex-direction:column;
 
 gap:4px;
 
-font-size:13px;          /* dimensione ridotta */
+font-size:13px;
 
 line-height:1.4;
 
 margin-top:4px;
 }
 
-
-/* SINGOLA RIGA DATI */
-
 .dati-tecnici p{
 
 margin:0;
 
 }
-
-
-/* EVIDENZIAZIONE */
 
 .highlight{
 background:#FFFF00;
@@ -190,9 +149,6 @@ display:inline-block;
 
 margin-bottom:8px;
 }
-
-
-/* FOOTER */
 
 footer{
 padding:24px;
