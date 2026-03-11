@@ -1,224 +1,121 @@
 <!DOCTYPE html>
 <html lang="it">
+
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>OmniJoy — Giocattoli</title>
-  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;900&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet"/>
-  <link rel="stylesheet" href="style.css" />
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>OmniJoy</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;900&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+
 </head>
+
 <body>
 
 <nav>
-  <a class="logo" href="#">
-    <div class="logo-icon">🧸</div>
-    <span class="logo-text">Omni<span>Joy</span></span>
-  </a>
 
-  <button class="nav-burger" id="burger" aria-label="Apri menu">&#9776;</button>
+<a class="logo" href="#">
+🧸 Omni<span>Joy</span>
+</a>
 
-  <ul class="nav-links" id="navLinks">
-    <li><a href="#">Novità</a></li>
-    <li><a href="#">Categorie</a></li>
-    <li><a href="#">Offerte</a></li>
-    <li><a href="#">Chi siamo</a></li>
-    <li><a href="#" class="nav-cta">🛒 Acquista</a></li>
-  </ul>
+<button id="burger" class="burger">☰</button>
+
+<ul id="menu" class="menu">
+
+<li><a href="#">Novità</a></li>
+<li><a href="#">Categorie</a></li>
+<li><a href="#">Offerte</a></li>
+<li><a href="#">Chi siamo</a></li>
+<li><a class="cta" href="#">🛒 Acquista</a></li>
+
+</ul>
+
 </nav>
 
+
+
 <section class="hero">
-  <div class="hero-bg-shapes">
-    <div class="shape shape-1"></div>
-    <div class="shape shape-2"></div>
-    <div class="shape shape-3"></div>
-  </div>
 
-  <div class="hero-left">
-    <div class="hero-badge">Spedizione gratuita sopra i 39€</div>
-    <h1 class="hero-title">
-      Il giocattolo<br>
-      <span class="accent-red">giusto</span> per ogni<br>
-      <span class="accent-blue">bambino</span>
-    </h1>
-    <p class="hero-sub">
-      Da OmniJoy trovi giocattoli pensati per far divertire, imparare e crescere.
-      Scegli con calma, ordina online, arriva a casa in poco tempo.
-    </p>
-    <div class="hero-btns">
-      <a class="btn-primary" href="#">Scopri i prodotti</a>
-      <a class="btn-secondary" href="#">Vedi le offerte</a>
-    </div>
-    <div class="hero-stats">
-      <div class="stat">
-        <div class="stat-num">tanti</div>
-        <div class="stat-label">prodotti</div>
-      </div>
-      <div class="stat-divider"></div>
-      <div class="stat">
-        <div class="stat-num">presto</div>
-        <div class="stat-label">a casa tua</div>
-      </div>
-      <div class="stat-divider"></div>
-      <div class="stat">
-        <div class="stat-num">sicuri</div>
-        <div class="stat-label">per i bimbi</div>
-      </div>
-    </div>
-  </div>
+<div class="hero-text">
 
-  <div class="hero-right">
-    <div class="toy-card big blue-accent">
-      <img src="https://images.unsplash.com/photo-1596461404969-9ae70f2830c1?w=700&q=80&auto=format&fit=crop" alt="Blocchi colorati" />
-      <div class="toy-card-label">🧩 Giochi educativi</div>
-    </div>
-    <div class="toy-card red-accent">
-      <img src="https://images.unsplash.com/photo-1535572290543-960a8046f5af?w=400&q=80&auto=format&fit=crop" alt="Peluche" />
-      <div class="toy-card-label">🧸 Peluche</div>
-    </div>
-    <div class="toy-card yellow-accent">
-      <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&q=80&auto=format&fit=crop" alt="Costruzioni" />
-      <div class="toy-card-label">🚀 Avventura</div>
-    </div>
-  </div>
-</section>
-
-<div class="ribbon">
-  <div class="ribbon-item"><div class="icon">🚚</div> Spedizione gratuita sopra 39€</div>
-  <div class="ribbon-item"><div class="icon">🎁</div> Confezione regalo disponibile</div>
-  <div class="ribbon-item"><div class="icon">↩️</div> Resi entro 30 giorni</div>
-  <div class="ribbon-item"><div class="icon">💳</div> Pagamento sicuro</div>
+<div class="badge">
+Spedizione gratuita sopra i 39€
 </div>
 
-<section class="features">
-  <div class="section-header">
-    <div class="section-tag">Perché OmniJoy</div>
-    <h2 class="section-title">Giocare bene fa bene</h2>
-  </div>
-  <div class="features-grid">
-    <div class="feat-card c-red">
-      <div class="feat-icon">🎯</div>
-      <h3>Selezionati con cura</h3>
-      <p>Ogni giocattolo che trovi da noi è stato scelto perché funziona davvero. Niente fronzoli, solo cose che ai bambini piacciono.</p>
-    </div>
-    <div class="feat-card c-blue">
-      <div class="feat-icon">📦</div>
-      <h3>Arriva veloce</h3>
-      <p>Ordini oggi, arriva presto. Teniamo tutto in magazzino e spediamo in tempi rapidi, anche sotto le feste.</p>
-    </div>
-    <div class="feat-card c-yellow">
-      <div class="feat-icon">🛡️</div>
-      <h3>Per bambini, in sicurezza</h3>
-      <p>Lavoriamo solo con prodotti adatti all'età indicata. Puoi scegliere tranquillo.</p>
-    </div>
-  </div>
+<h1>
+Il giocattolo<br>
+<span class="red">giusto</span> per ogni<br>
+<span class="blue">bambino</span>
+</h1>
+
+<p>
+Da OmniJoy trovi giocattoli pensati per far divertire,
+imparare e crescere.
+</p>
+
+<div class="buttons">
+
+<a class="btn-red" href="#">
+Scopri i prodotti
+</a>
+
+<a class="btn-blue" href="#">
+Vedi le offerte
+</a>
+
+</div>
+
+</div>
+
+
+
+<div class="hero-images">
+
+<div class="card big">
+
+<img src="https://images.unsplash.com/photo-1596461404969-9ae70f2830c1?w=700">
+
+<span>🧩 Giochi educativi</span>
+
+</div>
+
+
+<div class="card">
+
+<img src="https://images.unsplash.com/photo-1535572290543-960a8046f5af?w=400">
+
+<span>🧱 Costruzioni</span>
+
+</div>
+
+
+<div class="card">
+
+<img src="https://latinflores.com/cdn/shop/files/DulceOsitoMediano_a4d74676-7a45-4b98-b396-60df830b7b86.jpg?v=1745257946&w=400">
+
+<span>🧸 Peluche</span>
+
+</div>
+
+</div>
+
 </section>
 
-<section class="categories">
-  <div class="section-header">
-    <div class="section-tag">Esplora</div>
-    <h2 class="section-title">Cosa trovi da noi</h2>
-  </div>
-  <div class="cat-grid">
-    <div class="cat-item">
-      <span class="cat-emoji">🧸</span>
-      <div class="cat-name">Peluche & Bambole</div>
-      <div class="cat-count">morbidi e adorabili</div>
-    </div>
-    <div class="cat-item">
-      <span class="cat-emoji">🧩</span>
-      <div class="cat-name">Giochi educativi</div>
-      <div class="cat-count">imparano giocando</div>
-    </div>
-    <div class="cat-item">
-      <span class="cat-emoji">🚗</span>
-      <div class="cat-name">Veicoli & Costruzioni</div>
-      <div class="cat-count">i classici di sempre</div>
-    </div>
-    <div class="cat-item">
-      <span class="cat-emoji">🎨</span>
-      <div class="cat-name">Arte & Creatività</div>
-      <div class="cat-count">per bimbi curiosi</div>
-    </div>
-  </div>
-</section>
 
-<section class="why-us">
-  <div class="why-us-left">
-    <h2>Un negozio di cui fidarsi</h2>
-    <p>
-      Siamo un team di persone appassionate di giocattoli.
-      Quando selezioniamo un prodotto, ci chiediamo sempre:
-      lo comprerei per mio figlio?
-    </p>
-    <div class="why-list">
-      <div class="why-item">
-        <div class="why-dot" style="background: var(--red);"></div>
-        <div>
-          <strong>Assistenza vera</strong>
-          <span>Se hai un dubbio su un prodotto, siamo qui. Rispondiamo presto e senza formule preconfezionate.</span>
-        </div>
-      </div>
-      <div class="why-item">
-        <div class="why-dot" style="background: var(--blue);"></div>
-        <div>
-          <strong>Resi senza stress</strong>
-          <span>Non ti è piaciuto o hai sbagliato taglia? Nessun problema, gestiamo il reso in modo semplice.</span>
-        </div>
-      </div>
-      <div class="why-item">
-        <div class="why-dot" style="background: var(--yellow);"></div>
-        <div>
-          <strong>Sempre novità</strong>
-          <span>Aggiorniamo spesso il catalogo. Vale la pena tornare a dare un'occhiata ogni tanto.</span>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="why-us-right">
-    <div class="why-stat">
-      <div class="why-stat-num r">dal 2010</div>
-      <div class="why-stat-label">vendiamo giocattoli</div>
-    </div>
-    <div class="why-stat">
-      <div class="why-stat-num b">migliaia</div>
-      <div class="why-stat-label">di famiglie felici</div>
-    </div>
-    <div class="why-stat">
-      <div class="why-stat-num">tanti</div>
-      <div class="why-stat-label">prodotti disponibili</div>
-    </div>
-    <div class="why-stat">
-      <div class="why-stat-num r">molto<br>valutati</div>
-      <div class="why-stat-label">dai clienti</div>
-    </div>
-  </div>
-</section>
-
-<section class="cta-banner">
-  <h2>Trova il regalo <span>perfetto per ogni età</span></h2>
-  <a class="btn-white" href="#">Vai al negozio</a>
-</section>
-
-<footer>
-  <div class="logo">
-    <div class="logo-icon">🧸</div>
-    <span class="logo-text">Omni<span style="color:var(--red)">Joy</span></span>
-  </div>
-  <p>© 2025 OmniJoy S.r.l.</p>
-  <div class="footer-links">
-    <a href="#">Privacy</a>
-    <a href="#">Cookie</a>
-    <a href="#">Contatti</a>
-  </div>
-</footer>
 
 <script>
-  const burger = document.getElementById('burger');
-  const navLinks = document.getElementById('navLinks');
-  burger.addEventListener('click', () => {
-    navLinks.classList.toggle('open');
-  });
+
+const burger = document.getElementById("burger");
+const menu = document.getElementById("menu");
+
+burger.onclick = function(){
+menu.classList.toggle("open");
+}
+
 </script>
 
 </body>
